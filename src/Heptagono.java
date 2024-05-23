@@ -1,4 +1,5 @@
-public class Heptagono extends FigurasGeometricas{
+public class Heptagono extends FigurasGeometricas
+{
     Double lado, apotema;
     public Heptagono(){
         super("", 10);
@@ -29,7 +30,6 @@ public class Heptagono extends FigurasGeometricas{
     public double calcularArea(){
         return (nLados*lado*apotema)/2;
     }
-    public double calcularPerimetro(){
-        return nLados*apotema;
-    }
+    public double calcularPerimetro(){return nLados*apotema;}
+    // nuevo cambio
 }
