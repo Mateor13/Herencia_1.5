@@ -1,11 +1,11 @@
 public class Endecagono extends FigurasGeometricas{
     Double lado, apotema;
     public Endecagono(){
-        super("Undecagono", 11);
+        super("", 11);
     }
 
     public Endecagono(String nombre, int nLados, Double apotema, Double lado) {
-        super("Undecagono", 11);
+        super(nombre, nLados);
         this.lado = lado;
         this.apotema = apotema;
     }

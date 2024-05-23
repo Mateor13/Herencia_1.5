@@ -1,13 +1,16 @@
 public class Dodecagono extends FigurasGeometricas{
     Double lado, apotema;
-    public Dodecagono(){}
+    public Dodecagono(){
+        super("", 12);
+    }
 
-    public Dodecagono(Double apotema, Double lado) {
+    public Dodecagono(String nombre, int nLados, Double apotema, Double lado) {
+        super(nombre, nLados);
         this.lado = lado;
         this.apotema = apotema;
     }
     public Dodecagono(String nombre, int nLados){
-        super(nombre, nLados);
+
     }
 
     public Double getLado() {
