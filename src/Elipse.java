@@ -36,9 +36,9 @@ public class Elipse
 
     // Metodos personaizados
 
-    public double calcularPermitero()
+    public double calcularPerimetro()
     {
-        return (double) Math.round(Math.PI*(getSemi_eje_mayor()+getSemi_eje_menor()));
+        return 2 * Math.PI * Math.sqrt(((semi_eje_mayor * semi_eje_mayor) + (semi_eje_menor * semi_eje_menor)) / 2);
     }
 
     public double calcularArea()
