@@ -38,13 +38,11 @@ public class Elipse
 
     public double calcularPermitero()
     {
-        double perimetro = Math.round(Math.PI*(getSemi_eje_mayor()+getSemi_eje_menor()));
-        return perimetro;
+        return (double) Math.round(Math.PI*(getSemi_eje_mayor()+getSemi_eje_menor()));
     }
 
     public double calcularArea()
     {
-        double area = Math.round(Math.PI*getSemi_eje_mayor()*getSemi_eje_menor());
-        return area;
+        return (double) Math.round(Math.PI*getSemi_eje_mayor()*getSemi_eje_menor());
     }
 }
